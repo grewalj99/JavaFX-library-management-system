@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="librarymanagementsystem.AdminHomeScreenController">
+   <children>
+      <ImageView fitHeight="671.0" fitWidth="900.0" layoutY="29.0" pickOnBounds="true">
+         <image>
+            <Image url="@../img/homeScreen.jpg" />
+         </image></ImageView>
+      <MenuBar prefHeight="29.0" prefWidth="900.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#logoutButton" text="Logout" />
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Pane fx:id="pane1" layoutX="98.0" layoutY="105.0" onMouseClicked="#updateMembersScreen" onMouseEntered="#mouseHover1" onMouseExited="#mouseExit1" opacity="0.9" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5px;">
+         <children>
+            <ImageView fitHeight="128.0" fitWidth="128.0" layoutX="35.0" pickOnBounds="true" preserveRatio="true" y="10.0">
+               <image>
+                  <Image url="@../img/man-user.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="40.0" layoutY="150.0" prefHeight="36.0" prefWidth="119.0" text="Update Members">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="pane3" layoutX="602.0" layoutY="105.0" onMouseClicked="#issuedBooksScreen" onMouseEntered="#mouseHover3" onMouseExited="#mouseExit3" opacity="0.9" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5px;">
+         <children>
+            <Label alignment="CENTER" layoutX="55.0" layoutY="150.0" prefHeight="36.0" prefWidth="90.0" text="Issued Books">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="128.0" fitWidth="128.0" layoutX="36.0" pickOnBounds="true" preserveRatio="true" y="10.0">
+               <image>
+                  <Image url="@../img/books-side-view.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane fx:id="pane4" layoutX="98.0" layoutY="394.0" onMouseClicked="#searchBookScreen" onMouseEntered="#mouseHover4" onMouseExited="#mouseExit4" opacity="0.9" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5px;">
+         <children>
+            <ImageView fitHeight="128.0" fitWidth="128.0" layoutX="35.0" pickOnBounds="true" preserveRatio="true" y="10.0">
+               <image>
+                  <Image url="@../img/book.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="49.0" layoutY="150.0" prefHeight="36.0" prefWidth="100.0" text="Search Book">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="pane5" layoutX="351.0" layoutY="394.0" onMouseClicked="#issueBookScreen" onMouseEntered="#mouseHover5" onMouseExited="#mouseExit5" opacity="0.9" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5px;">
+         <children>
+            <ImageView fitHeight="128.0" fitWidth="128.0" layoutX="35.0" pickOnBounds="true" preserveRatio="true" y="10.0">
+               <image>
+                  <Image url="@../img/buying-books.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="60.0" layoutY="150.0" prefHeight="36.0" prefWidth="78.0" text="Issue Book">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="pane6" layoutX="602.0" layoutY="394.0" onMouseClicked="#returnBookScreen" onMouseEntered="#mouseHover6" onMouseExited="#mouseExit6" opacity="0.9" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5px;">
+         <children>
+            <ImageView fitHeight="128.0" fitWidth="128.0" layoutX="35.0" pickOnBounds="true" preserveRatio="true" y="10.0">
+               <image>
+                  <Image url="@../img/book-return-box.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="50.0" layoutY="150.0" prefHeight="36.0" prefWidth="100.0" text="Return Book">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="pane2" layoutX="351.0" layoutY="105.0" onMouseClicked="#updateBooksScreen" onMouseEntered="#mouseHover2" onMouseExited="#mouseExit2" opacity="0.9" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5px;">
+         <children>
+            <ImageView fitHeight="128.0" fitWidth="128.0" layoutX="35.0" pickOnBounds="true" preserveRatio="true" y="10.0">
+               <image>
+                  <Image url="@../img/open-book.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="49.0" layoutY="150.0" prefHeight="36.0" prefWidth="100.0" text="Update Books">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

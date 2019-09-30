@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="librarymanagementsystem.ReturnBookScreenController">
+   <children>
+      <Pane fx:id="basePane" layoutY="89.0" prefHeight="611.0" prefWidth="900.0">
+         <children>
+            <Pane layoutX="205.0" layoutY="105.0" prefHeight="380.0" prefWidth="500.0" style="-fx-background-color: white;">
+               <children>
+                  <JFXTextField fx:id="userIdInput" layoutX="170.0" layoutY="71.0" prefWidth="150.0" promptText="userId" />
+                  <JFXTextField fx:id="bookIdInput" layoutX="170.0" layoutY="169.0" prefWidth="150.0" promptText="bookId" />
+                  <JFXButton fx:id="returnButton" buttonType="RAISED" layoutX="170.0" layoutY="275.0" onKeyPressed="#returnButtonEnter" onMouseClicked="#returnButton" prefWidth="150.0" style="-fx-background-color: #ffe0a3;" text="Return" />
+                  <Label fx:id="status" alignment="CENTER" layoutX="95.0" layoutY="330.0" prefHeight="30.0" prefWidth="300.0" style="-fx-background-color: ffb6b9; -fx-background-radius: 5;" textFill="#c10000" visible="false">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+         </children></Pane>
+      <JFXDrawer fx:id="drawer" defaultDrawerSize="240.0" layoutY="89.0" overLayVisible="false" prefHeight="611.0" prefWidth="240.0" />
+      <MenuBar prefHeight="29.0" prefWidth="900.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Pane layoutY="29.0" prefHeight="60.0" prefWidth="900.0" style="-fx-background-color: #c10000;">
+         <children>
+            <JFXHamburger fx:id="hamburger" layoutX="30.0" layoutY="19.0" />
+            <Label alignment="CENTER" layoutX="385.0" layoutY="13.0" prefHeight="34.0" prefWidth="131.0" text="Return Book">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

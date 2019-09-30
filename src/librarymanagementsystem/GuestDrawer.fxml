@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="700.0" prefWidth="240.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="librarymanagementsystem.GuestDrawerController">
+   <children>
+      <JFXButton fx:id="homeButton" layoutX="15.0" layoutY="18.0" onMouseClicked="#guestHomeScreen" onMouseEntered="#mouseHover1" onMouseExited="#mouseExit1" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: white;" text="Home">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="allBooksButton" layoutX="15.0" layoutY="96.0" onMouseClicked="#allBooksScreen" onMouseEntered="#mouseHover2" onMouseExited="#mouseExit2" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: white;" text="All Books">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="searchBookButton" layoutX="15.0" layoutY="174.0" onMouseClicked="#searchBookScreen" onMouseEntered="#mouseHover3" onMouseExited="#mouseExit3" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: white;" text="Search Book">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="45.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/sidemenu/books-side-view.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="45.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/sidemenu/book.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="45.0" layoutY="426.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/sidemenu/buying-books.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="45.0" layoutY="348.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/sidemenu/book-return-box.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="45.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/sidemenu/home.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="45.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/sidemenu/man-user.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

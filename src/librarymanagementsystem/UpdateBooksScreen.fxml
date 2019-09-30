@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="librarymanagementsystem.UpdateBooksScreenController">
+   <children>
+      <Pane fx:id="basePane" layoutY="89.0" prefHeight="611.0" prefWidth="900.0">
+         <children>
+            <Pane layoutX="60.0" layoutY="60.0" prefHeight="500.0" prefWidth="370.0" style="-fx-background-color: white;">
+               <children>
+                  <JFXTextField fx:id="bookIdInput" layoutX="120.0" layoutY="27.0" promptText="bookId" />
+                  <JFXTextField fx:id="ISBNInput" layoutX="120.0" layoutY="69.0" promptText="ISBN" />
+                  <JFXTextField fx:id="titleInput" layoutX="120.0" layoutY="111.0" promptText="title" />
+                  <JFXTextField fx:id="authorInput" layoutX="120.0" layoutY="153.0" promptText="author" />
+                  <JFXTextField fx:id="editionInput" layoutX="120.0" layoutY="195.0" promptText="edition" />
+                  <JFXComboBox fx:id="campusInput" layoutX="120.0" layoutY="237.0" prefHeight="27.0" prefWidth="155.0" promptText="campus" />
+                  <JFXComboBox fx:id="subjectInput" layoutX="120.0" layoutY="279.0" prefHeight="27.0" prefWidth="155.0" promptText="subject" />
+                   <JFXButton fx:id="addButton" buttonType="RAISED" layoutX="120.0" layoutY="331.0" onKeyPressed="#addBookEnter" onMouseClicked="#addBook" prefWidth="150.0" style="-fx-background-color: #ffe0a3;" text="Add" />
+                  <Label fx:id="addBookstatus" alignment="CENTER" layoutX="40.0" layoutY="389.0" prefHeight="30.0" prefWidth="300.0" style="-fx-background-color: ffb6b9; -fx-background-radius: 5;" textFill="#c10000" visible="false" />
+               </children></Pane>
+            <Pane layoutX="470.0" layoutY="60.0" prefHeight="260.0" prefWidth="370.0" style="-fx-background-color: white;">
+               <children>
+                  <JFXTextField fx:id="removeBookIdInput" layoutX="110.0" layoutY="34.0" promptText="bookId" />
+                  <JFXButton fx:id="removeButton" buttonType="RAISED" layoutX="113.0" layoutY="87.0" onKeyPressed="#removeBookEnter" onMouseClicked="#removeBook" prefWidth="150.0" style="-fx-background-color: #ffe0a3;" text="Remove" />
+                  <Label fx:id="removeBookStatus" alignment="CENTER" layoutX="40.0" layoutY="150.0" prefHeight="30.0" prefWidth="300.0" style="-fx-background-color: ffb6b9; -fx-background-radius: 5;" textFill="#c10000" visible="false" />
+               </children>
+            </Pane>
+            <JFXButton fx:id="allBooksButton" buttonType="RAISED" layoutX="60.0" layoutY="15.0" onMouseClicked="#allBooks" prefWidth="780.0" style="-fx-background-color: #ffe0a3;" text="All Books" />
+         </children></Pane>
+      <JFXDrawer fx:id="drawer" defaultDrawerSize="240.0" layoutY="89.0" overLayVisible="false" prefHeight="611.0" prefWidth="240.0" />
+      <MenuBar prefHeight="29.0" prefWidth="900.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Pane layoutY="29.0" prefHeight="60.0" prefWidth="900.0" style="-fx-background-color: #c10000;">
+         <children>
+            <JFXHamburger fx:id="hamburger" layoutX="30.0" layoutY="19.0" />
+            <Label alignment="CENTER" layoutX="376.0" layoutY="14.0" prefHeight="34.0" prefWidth="149.0" text="Update Books">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

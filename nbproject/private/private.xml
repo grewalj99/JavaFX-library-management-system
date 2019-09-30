@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/IssueBookScreenController.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/ReturnBookScreen.fxml</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/Book.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/LibraryManagementSystem.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/GuestHomeScreen.fxml</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/IssuedBooksScreen.fxml</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/UpdateBooksScreenController.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/HomeScreen.fxml</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/ReturnBookScreenController.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/LoginScreen.fxml</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/AllMembersScreenController.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/AdminDrawerController.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/SearchBookScreen.fxml</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/DrawerController.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/AdminHomeScreenController.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/AllBooksScreen.fxml</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/DatabaseConnection.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/AllMembersScreen.fxml</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/Drawer.fxml</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/img/sidemenu/book-return-box.png</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/IssueBookScreen.fxml</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/AdminReturnBookScreen.fxml</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/GuestDrawer.fxml</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/AdminDrawer.fxml</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/Campus.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/UpdateMembersScreen.fxml</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/GuestHomeScreenController.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/SearchBookScreenController.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/FirstScreenController.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/User.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/HomeScreenController.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/AdminIssueBookScreen.fxml</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/GuestDrawerController.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/ProfileScreenController.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/UpdateBooksScreen.fxml</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/LoginScreenController.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/Issue.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/IssuedBooksScreenController.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/AdminReturnBookScreenController.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/UpdateMembersScreenController.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/AdminIssueBookScreenController.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/AllBooksScreenController.java</file>
+            <file>file:/Users/grewal/Desktop/Project5/LibraryManagementSystem/src/librarymanagementsystem/AdminHomeScreen.fxml</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="librarymanagementsystem.LoginScreenController">
+   <children>
+      <ImageView fx:id="image" fitHeight="700.0" fitWidth="900.0" pickOnBounds="true">
+         <image>
+            <Image url="@../img/library.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="193.0" layoutY="100.0" opacity="0.9" prefHeight="514.0" prefWidth="514.0" style="-fx-background-color: #fff;">
+         <children>
+            <JFXTextField fx:id="username" focusColor="#c36a2d" labelFloat="true" layoutX="100.0" layoutY="205.0" prefWidth="300.0" promptText="Username">
+               <font>
+                  <Font size="14.0" />
+               </font></JFXTextField>
+               <JFXPasswordField fx:id="password" focusColor="#c36a2d" labelFloat="true" layoutX="100.0" layoutY="275.0" prefHeight="28.0" prefWidth="300.0" promptText="Password" />
+            <JFXButton fx:id="loginButton" buttonType="RAISED" layoutX="100.0" layoutY="349.0" onKeyPressed="#loginEnter" onMouseClicked="#loginButton" prefHeight="50.0" prefWidth="300.0" style="-fx-background-color: ffe0a3;" text="Log in">
+               <font>
+                  <Font size="14.0" />
+               </font></JFXButton>
+            <Label alignment="CENTER" layoutX="132.0" layoutY="109.0" prefHeight="40.0" prefWidth="251.0" text="KPU Library">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="invalidLoginAlert" alignment="CENTER" layoutX="100.0" layoutY="155.0" prefHeight="28.0" prefWidth="300.0" style="-fx-background-color: ffb6b9; -fx-background-radius: 5;" textFill="#c10000" visible="false">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <JFXButton buttonType="RAISED" layoutX="100.0" layoutY="417.0" onKeyPressed="#guestLoginEnter" onMouseClicked="#guestLoginButton" prefHeight="50.0" prefWidth="300.0" style="-fx-background-color: ffe0a3;" text="Log in as a Guest">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="80.0" fitWidth="144.0" layoutX="186.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/logo.png" />
+               </image>
+            </ImageView>
+            
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
