@@ -1,4 +1,4 @@
-# library-management-system
+# JavaFX-library-management-system
 ## A JavaFX based Desktop Application ##
 **Login Screen**
 
